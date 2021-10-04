@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libtcp.so -o libtcp.so CMakeFiles/tcp.dir/src/TCPClient.cpp.o   -L/root/workspace/gpu-voxels/build/lib  -Wl,-rpath,/root/workspace/gpu-voxels/build/lib -lPocoNet -lPocoFoundation -lPocoUtil 
